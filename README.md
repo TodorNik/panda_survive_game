@@ -41,10 +41,11 @@ The game is fully playable and I'm more than keen to move onto new projects afte
 ### Files
 
 Most of the files commited to this repository are raw code. Only panda_survival.love (a play-ready LÖVE file) and classic.lua (class module) avoid this classification.
--main.lua: Main file for the game
--enemy.lua: Information and functions of the enemy entity
--player.lua: Information and functions of the player entity
--conf.lua: A config file that interacts with the builder to set title and icon
+
+1. main.lua: Main file for the game
+2. enemy.lua: Information and functions of the enemy entity
+3. player.lua: Information and functions of the player entity
+4. conf.lua: A config file that interacts with the builder to set title and icon
 ### Prerequisites
 
 - Lua

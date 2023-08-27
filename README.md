@@ -80,8 +80,8 @@ B. Raw code start
 
 ## Roadmap
 
-- [] Add smoother transition after game over
-- [] Replace placeholder art, set a background
+- [X] Add smoother transition after game over
+- [X] Replace placeholder art, set a background
 - [] Add special enemies every X number of points
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

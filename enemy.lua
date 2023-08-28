@@ -1,22 +1,21 @@
 Enemy = Object:extend()
 
 function Enemy:new(x, y, z)
---Takes args for location and speed of the enemy and creates it
+    --constructs an enemy object from given arguments
     self.image = love.graphics.newImage("snake.png")
-    local window_width = love.graphics.getWidth()
     self.x = x
     self.y = y
     self.speed = z
-    self.width = self.image:getWidth()
-    self.height = self.image:getHeight()
+    self.width = self.image:getWidth()*0.7
+    self.height = self.image:getHeight()*0.7
 end
 
---Moves the enemy
 function Enemy:update(dt)
+    --makes the enemy move across the X axis
     self.x = self.x - self.speed * dt
 end
 
---Draws the enemy on the canvas
 function Enemy:draw()
-    love.graphics.draw(self.image, self.x, self.y)
+    --draws enemies at its desired position
+    love.graphics.draw(self.image, self.x , self.y,0,1,1,47,53)
 end
